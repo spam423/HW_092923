@@ -8,6 +8,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 if (num > 99)
 {
     string str = num.ToString();
+    Console.WriteLine("third number");
     Console.WriteLine(str[2]);
 }
 if (num<99)
